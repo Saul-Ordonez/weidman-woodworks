@@ -1,11 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './NavBar.css';
+
 
 const NavBar = () => {
 
   return (
     <React.Fragment>
-      <h1>This is the NavBar</h1>
+      <div>
+        <Link to='/' >Home</Link>
+        <Link to='/aboutpage' >About</Link>
+        <Link to='/gallerypage' >Gallery</Link>
+        <Link to='/contactpage' >Contact</Link>
+      </div>
     </React.Fragment>
   );
 }
