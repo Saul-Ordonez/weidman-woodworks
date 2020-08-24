@@ -5,6 +5,7 @@ import Home from './Home';
 import About from './About';
 import Contact from './Contact';
 import Gallery from './Gallery';
+import Error404 from './Error404';
 
 class App extends React.Component {
 
@@ -18,6 +19,7 @@ class App extends React.Component {
           <Route path='/aboutpage' component={About} />
           <Route path='/gallerypage' component={Gallery} />
           <Route path= '/contactpage' component={Contact} />
+          <Route component={Error404} />
         </Switch>
       </React.Fragment>
     );
