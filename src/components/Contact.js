@@ -1,11 +1,13 @@
 import React from 'react';
-// import './Contact.css';
 
 const Contact = () => {
+  const titleStyle = {
+    marginLeft: 20,
+  }
 
   return (
     <React.Fragment>
-      <h1>This is the Contact page</h1>
+      <h1 style={titleStyle}>This is the Contact page</h1>
     </React.Fragment>
   );
 }
