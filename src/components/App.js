@@ -16,9 +16,9 @@ class App extends React.Component {
         <NavBar />
         <Switch>
           <Route path='/' exact component={Home} />
-          <Route path='/aboutpage' component={About} />
-          <Route path='/gallerypage' component={Gallery} />
-          <Route path= '/contactpage' component={Contact} />
+          <Route path='/aboutme' component={About} />
+          <Route path='/gallery' component={Gallery} />
+          <Route path= '/contact' component={Contact} />
           <Route component={Error404} />
         </Switch>
       </React.Fragment>

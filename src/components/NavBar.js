@@ -1,17 +1,28 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './NavBar.css';
 
 
 const NavBar = () => {
+  const container = {
+    backgroundColor: 'black',
+    paddingTop: 30,
+    paddingBottom: 30,
+    paddingRight: 10,
+    textAlign: 'right',
+  }
+  const navText = {
+    color: 'white',
+    textDecoration: 'none',
+    padding: 70,
+  }
 
   return (
     <React.Fragment>
-      <div>
-        <Link to='/' >Home</Link>
-        <Link to='/aboutpage' >About</Link>
-        <Link to='/gallerypage' >Gallery</Link>
-        <Link to='/contactpage' >Contact</Link>
+      <div style={container}>
+        <Link style={navText} to='/'>Home</Link>
+        <Link style={navText} to='/aboutme'>About</Link>
+        <Link style={navText} to='/gallery'>Gallery</Link>
+        <Link style={navText} to='/contact'>Contact</Link>
       </div>
     </React.Fragment>
   );
