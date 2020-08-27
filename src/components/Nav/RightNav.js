@@ -28,9 +28,10 @@ const Ul = styled.ul`
 `;
 
 const RightNav = ({ open }) => {
+
   return (
-    <Ul open={open} >
-      <Link className='navText' to='/'>Home</Link>
+    <Ul open={open}>
+      <Link className='navText' to='/' >Home</Link>
       <Link className='navText' to='/aboutme'>About</Link>
       <Link className='navText' to='/gallery'>Gallery</Link>
       <Link className='navText' to='/contact'>Contact</Link>
