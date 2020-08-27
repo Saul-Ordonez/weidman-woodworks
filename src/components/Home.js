@@ -3,7 +3,6 @@ import React from 'react';
 const Home = () => {
   const titleStyle = {
     marginLeft: 20,
-    color: 'red',
   }
 
   return (
