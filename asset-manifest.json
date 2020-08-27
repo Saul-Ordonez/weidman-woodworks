@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/weidman-woodworks/static/css/main.eae45001.chunk.css",
-    "main.js": "/weidman-woodworks/static/js/main.29146184.chunk.js",
-    "main.js.map": "/weidman-woodworks/static/js/main.29146184.chunk.js.map",
+    "main.js": "/weidman-woodworks/static/js/main.ec2a73ca.chunk.js",
+    "main.js.map": "/weidman-woodworks/static/js/main.ec2a73ca.chunk.js.map",
     "runtime-main.js": "/weidman-woodworks/static/js/runtime-main.6b4b48cf.js",
     "runtime-main.js.map": "/weidman-woodworks/static/js/runtime-main.6b4b48cf.js.map",
-    "static/js/2.0f1b1ef1.chunk.js": "/weidman-woodworks/static/js/2.0f1b1ef1.chunk.js",
-    "static/js/2.0f1b1ef1.chunk.js.map": "/weidman-woodworks/static/js/2.0f1b1ef1.chunk.js.map",
+    "static/js/2.832e8f95.chunk.js": "/weidman-woodworks/static/js/2.832e8f95.chunk.js",
+    "static/js/2.832e8f95.chunk.js.map": "/weidman-woodworks/static/js/2.832e8f95.chunk.js.map",
     "index.html": "/weidman-woodworks/index.html",
-    "precache-manifest.5816b54726ca6408afedbf958e6e7ad7.js": "/weidman-woodworks/precache-manifest.5816b54726ca6408afedbf958e6e7ad7.js",
+    "precache-manifest.63a51fe2dd22d2307d9a69dd5bf970fc.js": "/weidman-woodworks/precache-manifest.63a51fe2dd22d2307d9a69dd5bf970fc.js",
     "service-worker.js": "/weidman-woodworks/service-worker.js",
     "static/css/main.eae45001.chunk.css.map": "/weidman-woodworks/static/css/main.eae45001.chunk.css.map",
-    "static/js/2.0f1b1ef1.chunk.js.LICENSE.txt": "/weidman-woodworks/static/js/2.0f1b1ef1.chunk.js.LICENSE.txt"
+    "static/js/2.832e8f95.chunk.js.LICENSE.txt": "/weidman-woodworks/static/js/2.832e8f95.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6b4b48cf.js",
-    "static/js/2.0f1b1ef1.chunk.js",
+    "static/js/2.832e8f95.chunk.js",
     "static/css/main.eae45001.chunk.css",
-    "static/js/main.29146184.chunk.js"
+    "static/js/main.ec2a73ca.chunk.js"
   ]
 }
