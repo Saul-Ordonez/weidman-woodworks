@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { setState } from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
@@ -31,7 +31,7 @@ const RightNav = ({ open }) => {
 
   return (
     <Ul open={open}>
-      <Link className='navText' to='/' >Home</Link>
+      <Link className='navText' to='/'>Home</Link>
       <Link className='navText' to='/aboutme'>About</Link>
       <Link className='navText' to='/gallery'>Gallery</Link>
       <Link className='navText' to='/contact'>Contact</Link>

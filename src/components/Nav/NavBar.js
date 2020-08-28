@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styled from 'styled-components';
 import Burger from './Burger';
 
@@ -9,6 +9,8 @@ const Nav = styled.nav`
   padding: 2px 30px;
   display: flex;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
 
   .logo {
     padding: 15px 5px;
