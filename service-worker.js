@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/weidman-woodworks/precache-manifest.63a51fe2dd22d2307d9a69dd5bf970fc.js"
+  "/weidman-woodworks/precache-manifest.240c41bae701dbd864c408c4d26d2c8b.js"
 );
 
 self.addEventListener('message', (event) => {
