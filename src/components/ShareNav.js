@@ -17,14 +17,20 @@ const ShareNav = () => {
     bottom: 0,
   }
 
+  const shareIcons = {
+    padding: 2
+  }
+
   return (
     <React.Fragment>
       <div style={container} >
-        <SocialMediaIconsReact 
+        <SocialMediaIconsReact
+          style={shareIcons} 
           icon='facebook' 
           url='https://www.facebook.com/Weidman-Woodworks-237355887470641/' 
         />
-        <SocialMediaIconsReact 
+        <SocialMediaIconsReact
+          style={shareIcons} 
           icon='instagram' 
           url='https://www.instagram.com/weidman_woodworks/?hl=en' 
         />
