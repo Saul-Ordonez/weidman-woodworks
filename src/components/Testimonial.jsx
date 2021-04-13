@@ -1,10 +1,6 @@
 import React from 'react';
 
 export default function Testimonial(props) {
-    const heroStyle = {
-        width: '100%',
-        backgroundColor: '#907D6A',
-    }
     const testimonialStyle = {
         display: 'flex,',
         color: 'white',
@@ -21,11 +17,9 @@ export default function Testimonial(props) {
     }
 
   return (
-    <div style={heroStyle}>
         <div style={testimonialStyle}>
             <p>{props.quote}</p>
             <p style={authorStyle}>- {props.author}</p>
         </div>
-    </div>
   );
 }
