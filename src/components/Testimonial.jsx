@@ -1,19 +1,31 @@
 import React from 'react';
 
 export default function Testimonial(props) {
-
+    const heroStyle = {
+        width: '100%',
+        backgroundColor: '#907D6A',
+    }
     const testimonialStyle = {
-        color: 'black',
-        border: '1px solid black',
-        padding: '.5em',
-        margin: '.5em',
-        maxWidth: '500px',
+        display: 'flex,',
+        color: 'white',
+        backgroundColor: 'black',
+        border: '1px solid white',
+        padding: '1em',
+        margin: '0 auto',
+        width: '50%',
+    }
+
+    const authorStyle = {
+        textAlign: 'right',
+        fontSize: '1.5rem',
     }
 
   return (
-    <div style={testimonialStyle}>
-        <p>{props.quote}</p>
-        <p>- {props.author}</p>
+    <div style={heroStyle}>
+        <div style={testimonialStyle}>
+            <p>{props.quote}</p>
+            <p style={authorStyle}>- {props.author}</p>
+        </div>
     </div>
   );
 }
