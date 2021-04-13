@@ -1,5 +1,4 @@
 import React from 'react';
-import flipFlops from '../Images/flip-flops.jpg';
 
 const About = () => {
   const titleStyle = {
@@ -22,11 +21,6 @@ const About = () => {
   return (
     <React.Fragment>
       <h1 style={titleStyle}>This is the About page</h1>
-      <img  
-        style={imageStyle} 
-        src={flipFlops} 
-        alt="Flip Flops" 
-      />
       <div style={paragraphContainer}>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis hendrerit libero vitae magna suscipit, id ultricies augue viverra. Phasellus vulputate sapien ac nunc pellentesque malesuada. Sed nunc arcu, ornare ac nisl sit amet, viverra ultrices magna. Pellentesque viverra hendrerit urna, dapibus aliquam augue finibus vehicula. Nam egestas tincidunt orci. Proin non elementum ante. Nunc condimentum lectus id lectus vestibulum imperdiet. Donec ornare, augue eget sollicitudin dapibus, est est condimentum lectus, ac venenatis diam elit nec felis. Etiam tempor, metus at ultricies vehicula, ante lacus tempor magna, sit amet scelerisque ipsum eros quis erat. Phasellus ac mauris efficitur, gravida lorem quis, consequat ligula. Morbi volutpat at risus nec placerat. Nunc finibus sodales est a placerat.
