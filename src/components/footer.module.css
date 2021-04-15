@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+  background-color: black;
+  padding: 1.5em 0;
+  margin-top: 3em;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerText {
+  /* border: 1px solid red; */
+  margin-left: 5rem;
+  font-size: .7rem;
+  /* text-align: center; */
+  color: white;
+}
+
+.mediaIconsWrapper {
+  /* border: 1px solid blue; */
+  margin-right: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 110px;
+}
+
+.mediaIconsImg {
+  max-width: 50px;
+  /* border: 1px solid green; */
+}

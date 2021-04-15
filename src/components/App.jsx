@@ -6,7 +6,7 @@ import About from './About';
 import Contact from './Contact';
 import Gallery from './Gallery';
 import Error404 from './Error404';
-import ShareNav from './ShareNav';
+import Footer from './Footer';
 
 class App extends React.Component {
 
@@ -22,7 +22,7 @@ class App extends React.Component {
           <Route path= '/contact' component={Contact} />
           <Route component={Error404} />
         </Switch>
-        <ShareNav />
+        <Footer />
       </React.Fragment>
     );
 
