@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+  padding: 1.5em 0;
+  border: 1px solid red;
+}
+
+.wrapper {
+  border: 1px solid blue;
+}
+
+.form_content {
+  /* border: 1px solid green; */
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.submit_button {
+  align-content: center;
+}

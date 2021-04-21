@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import styles from './contact.module.css';
 
 const Contact = () => {
   const [status, setStatus] = useState("Submit");
@@ -23,21 +24,27 @@ const Contact = () => {
     alert(result.status);
   };
   return (
+    
     <form onSubmit={handleSubmit}>
-      <div>
-        <label htmlFor="name">Name:</label>
-        <input type="text" id="name" required />
+      <div className={styles.container}>
+        <div className={styles.wrapper}>
+          <div className={styles.form_content}>
+            <label htmlFor="name">Name:</label>
+            <input type="text" id="name" required />
+          </div>
+          <div className={styles.form_content}>
+            <label htmlFor="email">Email:</label>
+            <input type="email" id="email" required />
+          </div>
+          <div className={styles.form_content}>
+            <label htmlFor="message">Message:</label>
+            <textarea id="message" required />
+          </div>
+          <button type="submit" className={styles.submit_button}>{status}</button>
+        </div>
       </div>
-      <div>
-        <label htmlFor="email">Email:</label>
-        <input type="email" id="email" required />
-      </div>
-      <div>
-        <label htmlFor="message">Message:</label>
-        <textarea id="message" required />
-      </div>
-      <button type="submit">{status}</button>
     </form>
+   
   );
 };
 
